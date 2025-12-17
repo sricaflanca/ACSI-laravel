@@ -5,6 +5,8 @@ spec:
     git:
       branch: main
       repo_clone_url: https://github.com/digitalocean/sample-laravel.git
+    instance_count: 1
+    instance_size_slug: apps-s-1vcpu-1gb
     envs:
     - key: APP_KEY
       value: "base64:UdAH2B63rlotjrkSSsj3Hppy4gbfr+OeHvtSdF9r9q8="
