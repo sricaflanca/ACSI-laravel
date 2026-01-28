@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,17 +65,17 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'url' => env('DATABASE_URL'),
+            'url' => env('app-85395fc6-027a-436d-b9a3-abe40124b945-do-user-32572730-0.j.db.ondigitalocean.com'),
             'host' => env('DB_HOST', 'app-85395fc6-027a-436d-b9a3-abe40124b945-do-user-32572730-0.j.db.ondigitalocean.com'),
             'port' => env('DB_PORT', '25060'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'dev-db-receipttracker101'),
+            'username' => env('DB_USERNAME', 'dev-db-receipttracker101'),
+            'password' => env('DB_PASSWORD', 'AVNS_4zKnucbr9Bj16CYX1iF'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
             'schema' => 'public',
-            'sslmode' => 'prefer',
+            'sslmode' => 'require',
         ],
 
         'sqlsrv' => [
