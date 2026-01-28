@@ -66,8 +66,8 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
-            'port' => env('DB_PORT', '5432'),
+            'host' => env('DB_HOST', 'app-85395fc6-027a-436d-b9a3-abe40124b945-do-user-32572730-0.j.db.ondigitalocean.com'),
+            'port' => env('DB_PORT', '25060'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
